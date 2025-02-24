@@ -27,7 +27,7 @@ export default defineConfig({
     modules: { hashPrefix: '' },
     preprocessorOptions: {
       scss: {
-        additionalData: `@use './src/style/style.css';`,
+        additionalData: `@use './src/assets/style/main.css';`,
       },
     },
   },
