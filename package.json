@@ -24,7 +24,7 @@
     "release:storybook": "widget release -t ftp",
     "lint": "eslint --cache .",
     "lint:fix": "eslint --cache . --fix",
-    "init": "tsx scripts/init.ts"
+    "init": "esno scripts/init.ts"
   },
   "dependencies": {
     "@icon-park/vue-next": "^1.4.2",
@@ -51,10 +51,10 @@
     "@vue/cli-shared-utils": "^5.0.8",
     "eslint": "8.48.0",
     "eslint-plugin-storybook": "^0.11.3",
+    "esno": "^4.8.0",
     "sass": "^1.85.0",
     "storybook": "^8.5.8",
     "ts-loader": "^8.3.0",
-    "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
     "unocss": "^66.0.0",
     "unplugin-auto-import": "^0.12.0",
