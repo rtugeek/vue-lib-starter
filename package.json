@@ -6,9 +6,9 @@
     "access": "public"
   },
   "license": "MIT",
-  "main": "./dist/vue3.umd.js",
-  "module": "./dist/vue3.es.js",
-  "style": "./dist/style.css",
+  "main": "./dist/your-project-name.umd.js",
+  "module": "./dist/your-project-name.es.js",
+  "style": "./dist/your-project-name.css",
   "web-types": "./dist/web-types.json",
   "types": "dist/index.d.ts",
   "files": [
@@ -23,7 +23,8 @@
     "pnpm:publish": "pnpm publish --no-git-checks --registry=https://registry.npmjs.org/",
     "release:storybook": "widget release -t ftp",
     "lint": "eslint --cache .",
-    "lint:fix": "eslint --cache . --fix"
+    "lint:fix": "eslint --cache . --fix",
+    "init": "tsx scripts/init.ts"
   },
   "dependencies": {
     "@icon-park/vue-next": "^1.4.2",

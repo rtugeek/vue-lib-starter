@@ -41,9 +41,9 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, './src/index.ts'),
       // TODO rename to your project
-      name: 'todo',
+      name: 'your-project-name',
       // TODO rename to your project
-      fileName: format => `todo.${format}.js`,
+      fileName: format => `your-project-name.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],
